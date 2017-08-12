@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.ywh.bean">
+ <class catalog="mydb" name="User" table="user">
+  <id column="id" name="id">
+   <generator class="native"/>
+  </id>
+  <property column="username" generated="never" lazy="false" name="username"/>
+  <property column="password" generated="never" lazy="false" name="password"/>
+ </class>
+</hibernate-mapping>

@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/common.css"/>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <script type="text/javascript" src="js/libs/modernizr.min.js"></script>
-    <script type="text/javascript">
+    <script type="text/javascript"> 
     function allChoose(){
    	  var allcheck=document.getElementById("allck");
   	  var idcks=document.getElementsByName("ids"); 
